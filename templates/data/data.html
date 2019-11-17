@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% for data in data %}
+<label>Name:</label>{{data.name}}
+<br /><br />
+<label>ADDRESS:</label>
+{{data.address}}
+<br /><br />
+<label>EMAIL:</label>
+{{data.email}}
+<br /><br />
+{% endfor %}
+</body>
+</html>
